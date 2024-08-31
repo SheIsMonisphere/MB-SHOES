@@ -1,0 +1,34 @@
+{
+  "name": "ebusiness-site",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "format": "prettier --write \"src/**/*.{js,vue}\""
+  },
+  "dependencies": {
+    "@vue/compiler-sfc": "^3.4.35",
+    "canvas-confetti": "^1.9.3",
+    "core-js": "^3.8.3",
+    "vue": "^3.4.35",
+    "vue-loader": "^17.4.2",
+    "vue-router": "^4.4.3",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-vuex": "~5.0.0",
+    "@vue/cli-service": "^5.0.8",
+    "sass": "^1.32.7",
+    "sass-loader": "^12.0.0",
+    "vue-svg-loader": "^0.16.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}
