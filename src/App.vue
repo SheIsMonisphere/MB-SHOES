@@ -20,6 +20,7 @@ export default {
     TheFooter,
     ShoppingCart,
   },
+
   setup() {
     const isCartOpen = ref(false)
 
